@@ -1,0 +1,296 @@
+{
+ "modelo": "P1_K3Mov/modelos/k3mov_v2/mejor.pt",
+ "parametros": 614120,
+ "activos": 434408,
+ "sintetico": {
+  "secuencias": 240.0,
+  "acc_ejercicio_serie": 1.0,
+  "acc_ejercicio_fotograma": 0.9154346491261419,
+  "acc_fase_argmax": 0.7996637950641159,
+  "acc_fase_viterbi": 0.8049778279653979,
+  "acc_fase_en_vivo": 0.7888951702906606,
+  "f1_segmental_50": 0.8924568277178293,
+  "conteo_mae": 1.1385977100170657,
+  "conteo_obo": 0.7665198237885462,
+  "conteo_exacto": 0.33480176211453744,
+  "t_concentrica_mae_ms": 168.06410387628685,
+  "t_excentrica_mae_ms": 197.4702753980233,
+  "errores_auc_macro": 0.7586137155677126,
+  "errores_f1": 0.3337091319052988,
+  "errores_f1_sin_calibrar": 0.0,
+  "errores_calibrados": 1.0,
+  "calidad_mae": 0.27962803275634845,
+  "fatiga_mae": 0.05723756356940915,
+  "decodificador_mpjpe_mm": 30.26648917198181,
+  "decodificador_angulos_mae_grados": 7.135806341965993,
+  "latencia_ms_por_fotograma": 0.3187405692484044,
+  "auc_por_error": {
+   "abdominal:impulso": 0.9887706855791962,
+   "abdominal:rango_incompleto": NaN,
+   "abdominal:tiron_cuello": 0.6921479019526381,
+   "curl_biceps:balanceo_tronco": 0.6262626262626263,
+   "curl_biceps:codo_adelantado": 0.994392523364486,
+   "curl_biceps:excentrica_rapida": 0.9438832772166106,
+   "curl_biceps:rango_incompleto": 0.9982847341337907,
+   "dominada:asimetria": 0.8430555555555556,
+   "dominada:balanceo": 0.7339743589743589,
+   "dominada:rango_incompleto": 0.9424242424242424,
+   "elevacion_lateral:balanceo_tronco": 0.5555555555555556,
+   "elevacion_lateral:codos_flexionados": 0.9947089947089947,
+   "elevacion_lateral:encogimiento": 0.9346246973365617,
+   "elevacion_lateral:por_encima": 0.9661016949152542,
+   "elevacion_talones:balanceo": 0.6903409090909091,
+   "elevacion_talones:rango_incompleto": 0.6813266041816871,
+   "elevacion_talones:rebote": 0.9333333333333333,
+   "extension_triceps:arco_lumbar": 0.9985422740524781,
+   "extension_triceps:codos_abiertos": 0.8105945121951219,
+   "extension_triceps:rango_incompleto": 0.8978494623655914,
+   "flexion_brazos:cadera_alta": 0.5879494655004859,
+   "flexion_brazos:cadera_caida": 0.45252525252525255,
+   "flexion_brazos:codos_abiertos": 0.7164750957854407,
+   "flexion_brazos:rango_incompleto": 0.9943693693693694,
+   "fondos:codos_abiertos": 0.5327380952380952,
+   "fondos:hombros_adelantados": 0.9977272727272727,
+   "fondos:rango_incompleto": 0.9924749163879598,
+   "peso_muerto:espalda_redonda": 0.8611111111111112,
+   "peso_muerto:hiperextension_final": 0.9436619718309859,
+   "peso_muerto:rodillas_flexionadas": 1.0,
+   "press_hombro:arco_lumbar": 0.7106741573033708,
+   "press_hombro:asimetria": 0.3802197802197802,
+   "press_hombro:rango_incompleto": 0.8981937602627258,
+   "puente_gluteo:hiperextension_lumbar": 0.23767383059418457,
+   "puente_gluteo:rango_incompleto": 0.9723814486711829,
+   "puente_gluteo:rodillas_valgo": 0.3046398046398046,
+   "remo:espalda_redonda": 0.7217261904761905,
+   "remo:rango_incompleto": 0.6653290529695024,
+   "remo:rotacion_tronco": 0.1808300395256917,
+   "remo:tronco_elevado": 0.9839486356340289,
+   "saltos_tijera:brazos_incompletos": 0.9765714285714285,
+   "saltos_tijera:piernas_sin_abrir": 0.715,
+   "saltos_tijera:ritmo_irregular": 0.42784992784992787,
+   "sentadilla:asimetria_lateral": 0.8017391304347826,
+   "sentadilla:pies_muy_abiertos": 0.46908602150537637,
+   "sentadilla:poca_profundidad": 0.991869918699187,
+   "sentadilla:retroversion_pelvica": NaN,
+   "sentadilla:rodillas_valgo": 0.013123359580052493,
+   "sentadilla:talones_elevados": 0.6426387068588904,
+   "sentadilla:tronco_inclinado": NaN,
+   "zancada:poca_profundidad": 0.9634146341463414,
+   "zancada:rodilla_pasa_punta": 0.6570048309178744,
+   "zancada:tronco_inclinado": 0.9115646258503401,
+   "zancada:valgo_rodilla": NaN
+  }
+ },
+ "mmfit": {
+  "captura": {
+   "acc_ejercicio_fotograma": 0.3402331023308188,
+   "acc_ejercicio_serie": 0.4759825327510917,
+   "conteo_mae": 4.875683454453908,
+   "conteo_obo": 0.14410480349344978,
+   "series": 229,
+   "por_ejercicio": {
+    "sentadilla": {
+     "series": 24,
+     "acc_serie": 1.0,
+     "conteo_mae": 4.601831902757112
+    },
+    "flexion_brazos": {
+     "series": 24,
+     "acc_serie": 0.9583333333333334,
+     "conteo_mae": 6.6281481628927095
+    },
+    "press_hombro": {
+     "series": 21,
+     "acc_serie": 0.0,
+     "conteo_mae": 6.317211210988241
+    },
+    "zancada": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 1.1123771108226113
+    },
+    "remo": {
+     "series": 24,
+     "acc_serie": 0.75,
+     "conteo_mae": 5.639176971365184
+    },
+    "abdominal": {
+     "series": 24,
+     "acc_serie": 0.9583333333333334,
+     "conteo_mae": 4.358229410786104
+    },
+    "extension_triceps": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 7.159181606092413
+    },
+    "curl_biceps": {
+     "series": 22,
+     "acc_serie": 0.0,
+     "conteo_mae": 4.983799312869616
+    },
+    "elevacion_lateral": {
+     "series": 21,
+     "acc_serie": 0.0,
+     "conteo_mae": 5.505712515067509
+    },
+    "saltos_tijera": {
+     "series": 21,
+     "acc_serie": 1.0,
+     "conteo_mae": 2.411040189831207
+    }
+   }
+  },
+  "imu": {
+   "acc_ejercicio_fotograma": 0.09284210579067878,
+   "acc_ejercicio_serie": 0.1615720524017467,
+   "conteo_mae": 3.724255836366444,
+   "conteo_obo": 0.14410480349344978,
+   "series": 229,
+   "por_ejercicio": {
+    "sentadilla": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 3.6320500335714314
+    },
+    "flexion_brazos": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 3.5791093468821296
+    },
+    "press_hombro": {
+     "series": 21,
+     "acc_serie": 0.09523809523809523,
+     "conteo_mae": 4.631523597009835
+    },
+    "zancada": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 1.5315515184774995
+    },
+    "remo": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 5.378423885597537
+    },
+    "abdominal": {
+     "series": 24,
+     "acc_serie": 0.5,
+     "conteo_mae": 2.822899773522901
+    },
+    "extension_triceps": {
+     "series": 24,
+     "acc_serie": 0.08333333333333333,
+     "conteo_mae": 5.319923681459234
+    },
+    "curl_biceps": {
+     "series": 22,
+     "acc_serie": 0.0,
+     "conteo_mae": 4.928781294623729
+    },
+    "elevacion_lateral": {
+     "series": 21,
+     "acc_serie": 0.0,
+     "conteo_mae": 2.565380474419466
+    },
+    "saltos_tijera": {
+     "series": 21,
+     "acc_serie": 1.0,
+     "conteo_mae": 2.807210228472416
+    }
+   }
+  },
+  "ambos": {
+   "acc_ejercicio_fotograma": 0.3432420127837986,
+   "acc_ejercicio_serie": 0.4585152838427948,
+   "conteo_mae": 4.8103956218559025,
+   "conteo_obo": 0.1572052401746725,
+   "series": 229,
+   "por_ejercicio": {
+    "sentadilla": {
+     "series": 24,
+     "acc_serie": 0.7916666666666666,
+     "conteo_mae": 4.5476244570018025
+    },
+    "flexion_brazos": {
+     "series": 24,
+     "acc_serie": 1.0,
+     "conteo_mae": 6.567969500999122
+    },
+    "press_hombro": {
+     "series": 21,
+     "acc_serie": 0.0,
+     "conteo_mae": 6.608411493916286
+    },
+    "zancada": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 1.2718563544379624
+    },
+    "remo": {
+     "series": 24,
+     "acc_serie": 0.7916666666666666,
+     "conteo_mae": 5.075619138394056
+    },
+    "abdominal": {
+     "series": 24,
+     "acc_serie": 0.9166666666666666,
+     "conteo_mae": 4.039949872521295
+    },
+    "extension_triceps": {
+     "series": 24,
+     "acc_serie": 0.0,
+     "conteo_mae": 7.4506532761830995
+    },
+    "curl_biceps": {
+     "series": 22,
+     "acc_serie": 0.0,
+     "conteo_mae": 4.9630947030514525
+    },
+    "elevacion_lateral": {
+     "series": 21,
+     "acc_serie": 0.0,
+     "conteo_mae": 4.997627328111169
+    },
+    "saltos_tijera": {
+     "series": 21,
+     "acc_serie": 1.0,
+     "conteo_mae": 2.5608360136379598
+    }
+   }
+  }
+ },
+ "ec3d": {
+  "repeticiones": 362,
+  "acc_ejercicio": 0.17955801104972377,
+  "acc_error_exacto": 0.20994475138121546,
+  "acc_correcta_vs_error": 0.4585635359116022,
+  "por_clase": {
+   "sentadilla:correcta": 1.0,
+   "sentadilla:pies_muy_abiertos": 0.0,
+   "sentadilla:rodillas_valgo": 0.0,
+   "sentadilla:poca_profundidad": 0.09523809523809523,
+   "sentadilla:tronco_inclinado": 0.0,
+   "zancada:correcta": 0.0,
+   "zancada:rodilla_pasa_punta": 0.0,
+   "zancada:poca_profundidad": 0.0,
+   "plancha:correcta": 1.0,
+   "plancha:espalda_arqueada": 0.0,
+   "plancha:espalda_encorvada": 0.0
+  },
+  "columna_respecto_vertical_grados_p50_p95": {
+   "sentadilla": [
+    1.9,
+    4.8
+   ],
+   "zancada": [
+    1.8,
+    4.9
+   ],
+   "plancha": [
+    5.9,
+    12.5
+   ]
+  }
+ }
+}

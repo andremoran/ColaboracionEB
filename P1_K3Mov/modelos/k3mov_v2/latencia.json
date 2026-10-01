@@ -1,0 +1,15 @@
+{
+ "hilos": 1,
+ "series": 6,
+ "en_vivo_ms_p50_p95": [
+  16.039,
+  21.285
+ ],
+ "en_vivo_con_postura_correcta_ms_p50_p95": [
+  20.495,
+  26.991
+ ],
+ "en_vivo_bloques_de_5_ms_por_fotograma_p50": 5.526,
+ "serie_completa_ms_por_fotograma": 0.451,
+ "fotogramas_medidos": 4296
+}

@@ -1,0 +1,187 @@
+{
+ "secuencias": 240,
+ "particion": "validacion",
+ "repeticion": {
+  "comun": [
+   1.910069126932605,
+   3.1075051585673847
+  ],
+  "por_tipo": {
+   "abdominal:impulso": [
+    6.790026302026228,
+    15.437484823924676
+   ],
+   "abdominal:rango_incompleto": [
+    8.559137250289853,
+    17.58650981162025
+   ],
+   "abdominal:tiron_cuello": [
+    0.7830395485632329,
+    1.518748839206381
+   ],
+   "curl_biceps:codo_adelantado": [
+    10.753352107266801,
+    28.753615110417368
+   ],
+   "curl_biceps:excentrica_rapida": [
+    8.606478248756451,
+    20.010396640750308
+   ],
+   "curl_biceps:rango_incompleto": [
+    9.742922113527188,
+    26.041049341227513
+   ],
+   "dominada:balanceo": [
+    -0.552828512674114,
+    -3.1733029657068803
+   ],
+   "dominada:rango_incompleto": [
+    4.906077199471956,
+    13.768505376108358
+   ],
+   "elevacion_lateral:balanceo_tronco": [
+    -0.762266739878496,
+    -3.4531170998910325
+   ],
+   "elevacion_lateral:codos_flexionados": [
+    8.791891727376898,
+    19.51387488778982
+   ],
+   "elevacion_lateral:encogimiento": [
+    6.382165407702479,
+    14.410880606630668
+   ],
+   "elevacion_talones:balanceo": [
+    -0.6799537305887106,
+    -2.7636429443019126
+   ],
+   "elevacion_talones:rango_incompleto": [
+    1.1731279604135079,
+    1.2678257872532979
+   ],
+   "extension_triceps:arco_lumbar": [
+    3.1906022257588527,
+    6.32945558701053
+   ],
+   "extension_triceps:codos_abiertos": [
+    3.0175394103452158,
+    5.3341626212688125
+   ],
+   "extension_triceps:rango_incompleto": [
+    2.6005680288984636,
+    4.996536673377233
+   ],
+   "flexion_brazos:codos_abiertos": [
+    -2.6817878008008424,
+    -10.33480078464733
+   ],
+   "fondos:codos_abiertos": [
+    0.2578023681474236,
+    -1.45399599525193
+   ],
+   "fondos:rango_incompleto": [
+    6.2505488568305605,
+    14.008239326624132
+   ],
+   "peso_muerto:espalda_redonda": [
+    6.038174000436324,
+    12.645560793303858
+   ],
+   "peso_muerto:hiperextension_final": [
+    4.67878631622982,
+    8.95107895670687
+   ],
+   "peso_muerto:rodillas_flexionadas": [
+    5.200298272776754,
+    12.356494718137375
+   ],
+   "press_hombro:arco_lumbar": [
+    4.79540609738894,
+    11.495526517347425
+   ],
+   "press_hombro:asimetria": [
+    0.04776087675255017,
+    -1.9262830216640292
+   ],
+   "press_hombro:rango_incompleto": [
+    7.9317112255653415,
+    16.513867586940005
+   ],
+   "puente_gluteo:hiperextension_lumbar": [
+    -2.067736023007716,
+    -7.911375567708118
+   ],
+   "remo:espalda_redonda": [
+    4.765301345305078,
+    9.03920309260984
+   ],
+   "remo:rango_incompleto": [
+    0.578728455678152,
+    -0.99799336451467
+   ],
+   "remo:rotacion_tronco": [
+    -1.3842325109524447,
+    -5.612149568907249
+   ],
+   "saltos_tijera:brazos_incompletos": [
+    4.392040456687959,
+    8.118408281886959
+   ],
+   "saltos_tijera:piernas_sin_abrir": [
+    0.6129864896718655,
+    0.0520229009912097
+   ],
+   "saltos_tijera:ritmo_irregular": [
+    1.189964180125667,
+    0.7493437648058365
+   ],
+   "sentadilla:asimetria_lateral": [
+    -4.865926851726907,
+    -18.917143897273327
+   ],
+   "sentadilla:poca_profundidad": [
+    7.215297937219953,
+    27.279762804005177
+   ],
+   "sentadilla:retroversion_pelvica": [
+    2.179001295446958,
+    5.062262435801597
+   ],
+   "zancada:poca_profundidad": [
+    5.265872239915396,
+    13.356325599547125
+   ],
+   "zancada:rodilla_pasa_punta": [
+    -1.5152129121113898,
+    -5.631030363945874
+   ],
+   "zancada:tronco_inclinado": [
+    2.2440711383261385,
+    5.291313329545371
+   ],
+   "zancada:valgo_rodilla": [
+    -0.8084976474220669,
+    -4.18112013014626
+   ]
+  },
+  "ejemplos": 5650,
+  "positivos": 717,
+  "auc": 0.7425515859518949,
+  "f1_sin_calibrar": 0.0,
+  "f1_calibrado": 0.437125748502994,
+  "tipos_propios": 39
+ },
+ "serie": {
+  "comun": [
+   1.613796734897691,
+   1.7668609886191224
+  ],
+  "por_tipo": {},
+  "ejemplos": 861,
+  "positivos": 154,
+  "auc": 0.6997097668950568,
+  "f1_sin_calibrar": 0.03821656050955414,
+  "f1_calibrado": 0.17543859649122806,
+  "tipos_propios": 0
+ }
+}

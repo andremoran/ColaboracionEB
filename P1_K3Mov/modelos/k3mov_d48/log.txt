@@ -1,0 +1,11 @@
+parametros 614,120  activos 434,408  muon=143 adam=208
+C:\Users\annim\Downloads\NuevosProyectosIA\P1_K3Mov\entrenar.py:154: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\autograd\generated\python_variable_methods.cpp:821.)
+  msg = {k: round(float(v), 4) for k, v in L.items()}
+paso 50 total 8.399 {'ej': 3.0087, 'fase': 1.3016, 'rep': 0.0015, 'conteo': 0.8468, 'err': 0.463, 'cal': 0.1549, 'fat': 0.1126, 'mtp': 0.2974, 'rec': 0.5799, 'rot': 0.2456, 'pos': 0.2786, 'ang': 0.3606, 'raiz': 0.0628} 220s
+paso 100 total 6.442 {'ej': 2.7558, 'fase': 1.2523, 'rep': 0.0015, 'conteo': 0.507, 'err': 0.1389, 'cal': 0.1338, 'fat': 0.0061, 'mtp': 0.0747, 'rec': 0.3522, 'rot': 0.0494, 'pos': 0.2945, 'ang': 0.2826, 'raiz': 0.0276} 399s
+paso 150 total 6.273 {'ej': 2.8078, 'fase': 1.4001, 'rep': 0.0016, 'conteo': 0.7672, 'err': 0.0854, 'cal': 0.0966, 'fat': 0.0046, 'mtp': 0.0573, 'rec': 0.592, 'rot': 0.0585, 'pos': 0.189, 'ang': 0.2802, 'raiz': 0.0307} 588s
+paso 200 total 5.832 {'ej': 2.8594, 'fase': 1.3399, 'rep': 0.0013, 'conteo': 0.3797, 'err': 0.0848, 'cal': 0.1058, 'fat': 0.005, 'mtp': 0.0412, 'rec': 0.4002, 'rot': 0.047, 'pos': 0.1507, 'ang': 0.258, 'raiz': 0.0318} 779s
+paso 250 total 5.683 {'ej': 2.9211, 'fase': 1.4035, 'rep': 0.0014, 'conteo': 0.3897, 'err': 0.0814, 'cal': 0.1031, 'fat': 0.0058, 'mtp': 0.0389, 'rec': 0.3031, 'rot': 0.0287, 'pos': 0.1217, 'ang': 0.18, 'raiz': 0.0294} 884s
+paso 300 total 5.379 {'ej': 2.8582, 'fase': 1.2653, 'rep': 0.0015, 'conteo': 0.5113, 'err': 0.0611, 'cal': 0.1038, 'fat': 0.0046, 'mtp': 0.0428, 'rec': 0.2678, 'rot': 0.0356, 'pos': 0.0925, 'ang': 0.2002, 'raiz': 0.0269} 1004s
+paso 350 total 5.808 {'ej': 2.875, 'fase': 1.3478, 'rep': 0.0017, 'conteo': 0.6903, 'err': 0.124, 'cal': 0.1906, 'fat': 0.0054, 'mtp': 0.0447, 'rec': 0.4358, 'rot': 0.0266, 'pos': 0.104, 'ang': 0.1747, 'raiz': 0.0278} 1227s

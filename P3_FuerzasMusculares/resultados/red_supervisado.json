@@ -1,0 +1,12 @@
+{
+ "modo": "supervisado",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 5.102602481842041,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.498991012573242,
+ "activacion_mae_vs_SO": 0.004897241946309805,
+ "fuerza_corr_vs_SO": 0.9935454360136039,
+ "esfuerzo_red": 1.410997986793518,
+ "esfuerzo_SO": 1.4367201328277588,
+ "ms_por_fotograma_red": 0.8260130882263184,
+ "fotogramas_prueba": 33669
+}

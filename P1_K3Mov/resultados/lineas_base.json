@@ -1,0 +1,27 @@
+{
+ "gru_parametros": 56278,
+ "sintetico": {
+  "svm_acc_ventana": 0.9751133614418218,
+  "svm_acc_serie": 0.99,
+  "gru_acc_ejercicio_fotograma": 0.892444717921763,
+  "gru_acc_fase": 0.6971192591209721,
+  "gru_acc_serie": 1.0,
+  "fase_conteo_mae": 7.085720819425186,
+  "fase_conteo_obo": 0.22333333333333333,
+  "series": 300
+ },
+ "mmfit": {
+  "svm_acc_fotograma": 0.19066907480360476,
+  "svm_acc_serie": 0.26200873362445415,
+  "gru_acc_fotograma": 0.2829358496321863,
+  "gru_acc_serie": 0.27510917030567683,
+  "fase_conteo_mae": 1.0514450220172582,
+  "fase_conteo_obo": 0.7991266375545851,
+  "series": 229
+ },
+ "ec3d": {
+  "svm_acc_repeticion": 0.21823204419889503,
+  "gru_acc_repeticion": 0.23204419889502761,
+  "repeticiones": 362
+ }
+}

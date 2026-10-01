@@ -1,0 +1,148 @@
+== evaluación K3Mov
+{
+ "secuencias": 240.0,
+ "acc_ejercicio_serie": 1.0,
+ "acc_ejercicio_fotograma": 0.9154346491261419,
+ "acc_fase_argmax": 0.7996637950641159,
+ "acc_fase_viterbi": 0.8049778279653979,
+ "acc_fase_en_vivo": 0.7888951702906606,
+ "f1_segmental_50": 0.8924568277178293,
+ "conteo_mae": 1.1385977100170657,
+ "conteo_obo": 0.7665198237885462,
+ "conteo_exacto": 0.33480176211453744,
+ "t_concentrica_mae_ms": 168.06410387628685,
+ "t_excentrica_mae_ms": 197.4702753980233,
+ "errores_auc_macro": 0.7586137155677126,
+ "errores_f1": 0.0,
+ "calidad_mae": 0.27962803275634845,
+ "fatiga_mae": 0.05723756356940915,
+ "decodificador_mpjpe_mm": 30.26648917198181,
+ "decodificador_angulos_mae_grados": 7.135806341965993,
+ "latencia_ms_por_fotograma": 0.5514588504737671,
+ "auc_por_error": {
+  "abdominal:impulso": 0.9887706855791962,
+  "abdominal:rango_incompleto": NaN,
+  "abdominal:tiron_cuello": 0.6921479019526381,
+  "curl_biceps:balanceo_tronco": 0.6262626262626263,
+  "curl_biceps:codo_adelantado": 0.994392523364486,
+  "curl_biceps:excentrica_rapida": 0.9438832772166106,
+  "curl_biceps:rango_incompleto": 0.9982847341337907,
+  "dominada:asimetria": 0.8430555555555556,
+  "dominada:balanceo": 0.7339743589743589,
+  "dominada:rango_incompleto": 0.9424242424242424,
+  "elevacion_lateral:balanceo_tronco": 0.5555555555555556,
+  "elevacion_lateral:codos_flexionados": 0.9947089947089947,
+  "elevacion_lateral:encogimiento": 0.9346246973365617,
+  "elevacion_lateral:por_encima": 0.9661016949152542,
+  "elevacion_talones:balanceo": 0.6903409090909091,
+  "elevacion_talones:rango_incompleto": 0.6813266041816871,
+  "elevacion_talones:rebote": 0.9333333333333333,
+  "extension_triceps:arco_lumbar": 0.9985422740524781,
+  "extension_triceps:codos_abiertos": 0.8105945121951219,
+  "extension_triceps:rango_incompleto": 0.8978494623655914,
+  "flexion_brazos:cadera_alta": 0.5879494655004859,
+  "flexion_brazos:cadera_caida": 0.45252525252525255,
+  "flexion_brazos:codos_abiertos": 0.7164750957854407,
+  "flexion_brazos:rango_incompleto": 0.9943693693693694,
+  "fondos:codos_abiertos": 0.5327380952380952,
+  "fondos:hombros_adelantados": 0.9977272727272727,
+  "fondos:rango_incompleto": 0.9924749163879598,
+  "peso_muerto:espalda_redonda": 0.8611111111111112,
+  "peso_muerto:hiperextension_final": 0.9436619718309859,
+  "peso_muerto:rodillas_flexionadas": 1.0,
+  "press_hombro:arco_lumbar": 0.7106741573033708,
+  "press_hombro:asimetria": 0.3802197802197802,
+  "press_hombro:rango_incompleto": 0.8981937602627258,
+  "puente_gluteo:hiperextension_lumbar": 0.23767383059418457,
+  "puente_gluteo:rango_incompleto": 0.9723814486711829,
+  "puente_gluteo:rodillas_valgo": 0.3046398046398046,
+  "remo:espalda_redonda": 0.7217261904761905,
+  "remo:rango_incompleto": 0.6653290529695024,
+  "remo:rotacion_tronco": 0.1808300395256917,
+  "remo:tronco_elevado": 0.9839486356340289,
+  "saltos_tijera:brazos_incompletos": 0.9765714285714285,
+  "saltos_tijera:piernas_sin_abrir": 0.715,
+  "saltos_tijera:ritmo_irregular": 0.42784992784992787,
+  "sentadilla:asimetria_lateral": 0.8017391304347826,
+  "sentadilla:pies_muy_abiertos": 0.46908602150537637,
+  "sentadilla:poca_profundidad": 0.991869918699187,
+  "sentadilla:retroversion_pelvica": NaN,
+  "sentadilla:rodillas_valgo": 0.013123359580052493,
+  "sentadilla:talones_elevados": 0.6426387068588904,
+  "sentadilla:tronco_inclinado": NaN,
+  "zancada:poca_profundidad": 0.9634146341463414,
+  "zancada:rodilla_pasa_punta": 0.6570048309178744,
+  "zancada:tronco_inclinado": 0.9115646258503401,
+  "zancada:valgo_rodilla": NaN
+ }
+}
+MM-Fit captura {'acc_ejercicio_fotograma': 0.3402331023308188, 'acc_ejercicio_serie': 0.4759825327510917, 'conteo_mae': 4.875683454453908, 'conteo_obo': 0.14410480349344978, 'series': 229}
+MM-Fit imu {'acc_ejercicio_fotograma': 0.09284210579067878, 'acc_ejercicio_serie': 0.1615720524017467, 'conteo_mae': 3.724255836366444, 'conteo_obo': 0.14410480349344978, 'series': 229}
+MM-Fit ambos {'acc_ejercicio_fotograma': 0.3432420127837986, 'acc_ejercicio_serie': 0.4585152838427948, 'conteo_mae': 4.8103956218559025, 'conteo_obo': 0.1572052401746725, 'series': 229}
+{
+ "repeticiones": 362,
+ "acc_ejercicio": 0.17955801104972377,
+ "acc_error_exacto": 0.3314917127071823,
+ "acc_correcta_vs_error": 0.3314917127071823,
+ "por_clase": {
+  "sentadilla:correcta": 1.0,
+  "sentadilla:pies_muy_abiertos": 0.0,
+  "sentadilla:rodillas_valgo": 0.0,
+  "sentadilla:poca_profundidad": 0.0,
+  "sentadilla:tronco_inclinado": 0.0,
+  "zancada:correcta": 1.0,
+  "zancada:rodilla_pasa_punta": 0.0,
+  "zancada:poca_profundidad": 0.0,
+  "plancha:correcta": 1.0,
+  "plancha:espalda_arqueada": 0.0,
+  "plancha:espalda_encorvada": 0.0
+ }
+}
+guardado P1_K3Mov\modelos\k3mov_v2\evaluacion.json
+== líneas base
+SVM entrenada (21s)
+GRU paso 250 pérdida 1.818 23s
+GRU paso 500 pérdida 1.285 42s
+GRU paso 750 pérdida 1.169 58s
+GRU paso 1000 pérdida 0.974 70s
+GRU paso 1250 pérdida 0.744 81s
+GRU paso 1500 pérdida 0.777 92s
+sintético {'svm_acc_ventana': 0.9751133614418218, 'svm_acc_serie': 0.99, 'gru_acc_ejercicio_fotograma': 0.892444717921763, 'gru_acc_fase': 0.6971192591209721, 'gru_acc_serie': 1.0, 'fase_conteo_mae': 7.085720819425186, 'fase_conteo_obo': 0.22333333333333333, 'series': 300}
+MM-Fit {'svm_acc_fotograma': 0.19066907480360476, 'svm_acc_serie': 0.26200873362445415, 'gru_acc_fotograma': 0.2829358496321863, 'gru_acc_serie': 0.27510917030567683, 'fase_conteo_mae': 1.0514450220172582, 'fase_conteo_obo': 0.7991266375545851, 'series': 229}
+EC3D {'svm_acc_repeticion': 0.21823204419889503, 'gru_acc_repeticion': 0.23204419889502761, 'repeticiones': 362}
+== video del decodificador
+video: C:\Users\annim\Downloads\NuevosProyectosIA\salidas\p1\correccion_sentadilla_talones_elevados.mp4  fotogramas 240  ejercicio Sentadilla
+video: C:\Users\annim\Downloads\NuevosProyectosIA\salidas\p1\correccion_zancada_tronco_inclinado.mp4  fotogramas 240  ejercicio Zancada
+== atlas (reevaluación con filtrado de ruido)
+atlas: {'referencias': 2765, 'por_ejercicio': {'abdominal': 180, 'curl_biceps': 180, 'dominada': 180, 'elevacion_lateral': 180, 'elevacion_talones': 180, 'extension_triceps': 180, 'flexion_brazos': 180, 'fondos': 180, 'giro_tronco': 33, 'peso_muerto': 180, 'press_hombro': 180, 'puente_gluteo': 180, 'remo': 180, 'saltos_tijera': 201, 'sentadilla': 181, 'zancada': 190}, 'fuentes': {'CMU': 65, 'sintetico': 2700}}
+sintético: {'repeticiones': 304, 'acc_ejercicio': 0.8881578947368421, 'auc_correcta_vs_error': 0.607276983856021} (58s)
+EC3D: {'repeticiones': 259, 'acc_ejercicio': 0.6602316602316602, 'auc_error': 0.6031809676557071, 'auc_por_ejercicio': {'sentadilla': 0.5459662288930581, 'zancada': 0.6972624798711755}, 'acierto_nombre_error': 0.4069767441860465, 'nombre_error_por_etiqueta': {'sentadilla:feet too wide': 0.0, 'sentadilla:knees inward': 0.0, 'sentadilla:not low enough': 1.0, 'sentadilla:front bended': 0.0, 'zancada:knees pass toes': 0.43902439024390244, 'zancada:not low enough': 0.775}, 'puntaje_medio_correctas': 21.657267948804016, 'puntaje_medio_erroneas': 23.054635243352873} (105s)
+EC3D con referencia personal: {'repeticiones': 362, 'erroneas': 242, 'auc': 0.8154958677685951, 'auc_por_ejercicio': {'plancha': 0.9796536796536797, 'sentadilla': 0.7751273117126776, 'zancada': 0.7560386473429952}}
+{
+ "sintetico": {
+  "repeticiones": 304,
+  "acc_ejercicio": 0.8881578947368421,
+  "auc_correcta_vs_error": 0.607276983856021
+ },
+ "ec3d": {
+  "repeticiones": 259,
+  "acc_ejercicio": 0.6602316602316602,
+  "auc_error": 0.6031809676557071,
+  "auc_por_ejercicio": {
+   "sentadilla": 0.5459662288930581,
+   "zancada": 0.6972624798711755
+  },
+  "acierto_nombre_error": 0.4069767441860465,
+  "nombre_error_por_etiqueta": {
+   "sentadilla:feet too wide": 0.0,
+   "sentadilla:knees inward": 0.0,
+   "sentadilla:not low enough": 1.0,
+   "sentadilla:front bended": 0.0,
+   "zancada:knees pass toes": 0.43902439024390244,
+   "zancada:not low enough": 0.775
+  },
+  "puntaje_medio_correctas": 21.657267948804016,
+  "puntaje_medio_erroneas": 23.054635243352873
+ }
+}
+== fin de la cadena

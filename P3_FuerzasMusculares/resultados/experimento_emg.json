@@ -1,0 +1,138 @@
+{
+ "canales": [
+  "vaslat_r",
+  "gasmed_r"
+ ],
+ "cocontraccion": [
+  "bflh_r",
+  "bfsh_r",
+  "semimem_r",
+  "semiten_r",
+  "gasmed_r",
+  "gaslat_r"
+ ],
+ "series": 6,
+ "mae_activacion": {
+  "so": 0.004601583330364411,
+  "emg_ingenua": 0.014833517813388397,
+  "emg_genetica": 0.004419471803755996,
+  "emg_verdadera": 0.004103302834175311
+ },
+ "mae_activacion_no_medidos": {
+  "so": 0.004086887058623248,
+  "emg_ingenua": 0.011443408241512056,
+  "emg_genetica": 0.004058962808580711,
+  "emg_verdadera": 0.003991483653020887
+ },
+ "ganancias": [
+  {
+   "verdadera": [
+    1.2066357757671797,
+    1.3294965609839984
+   ],
+   "genetica": [
+    1.1100271185231887,
+    0.9331455786175326
+   ],
+   "retardo_verdadero": [
+    2,
+    2
+   ],
+   "retardo_genetico": [
+    2.0,
+    2.0
+   ]
+  },
+  {
+   "verdadera": [
+    1.5751452710466864,
+    1.1753904748336896
+   ],
+   "genetica": [
+    1.0988200189395072,
+    1.0322204363423872
+   ],
+   "retardo_verdadero": [
+    2,
+    1
+   ],
+   "retardo_genetico": [
+    2.0,
+    1.0
+   ]
+  },
+  {
+   "verdadera": [
+    0.9588327838163527,
+    1.356979144158644
+   ],
+   "genetica": [
+    0.6656757297316578,
+    1.0259988582291593
+   ],
+   "retardo_verdadero": [
+    1,
+    1
+   ],
+   "retardo_genetico": [
+    1.0,
+    2.0
+   ]
+  },
+  {
+   "verdadera": [
+    1.1902911422283529,
+    0.8875079593267703
+   ],
+   "genetica": [
+    0.8947173988622646,
+    0.6154919030531342
+   ],
+   "retardo_verdadero": [
+    2,
+    1
+   ],
+   "retardo_genetico": [
+    2.0,
+    1.0
+   ]
+  },
+  {
+   "verdadera": [
+    0.9857239696620466,
+    0.7722694046876827
+   ],
+   "genetica": [
+    0.8930584550450904,
+    0.8213063709905859
+   ],
+   "retardo_verdadero": [
+    1,
+    2
+   ],
+   "retardo_genetico": [
+    1.0,
+    2.0
+   ]
+  },
+  {
+   "verdadera": [
+    0.8419747987405839,
+    0.9609769729980556
+   ],
+   "genetica": [
+    0.6960418063159957,
+    0.5484315711779618
+   ],
+   "retardo_verdadero": [
+    1,
+    1
+   ],
+   "retardo_genetico": [
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "segundos": 217
+}

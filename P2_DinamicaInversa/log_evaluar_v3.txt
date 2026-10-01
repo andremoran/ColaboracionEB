@@ -1,0 +1,71 @@
+0 extension_triceps {'A_fisica_captura': 0.462, 'B_tcn': 0.036, 'C_hibrido': 0.16, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.05}
+10 dominada {'A_fisica_captura': 0.35, 'B_tcn': 0.07, 'C_hibrido': 0.128, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.072}
+20 fondos {'A_fisica_captura': 0.221, 'B_tcn': 0.046, 'C_hibrido': 0.1, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.044}
+30 puente_gluteo {'A_fisica_captura': 0.451, 'B_tcn': 0.02, 'C_hibrido': 0.106, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.025}
+40 dominada {'A_fisica_captura': 0.316, 'B_tcn': 0.075, 'C_hibrido': 0.11, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.077}
+{
+ "A_fisica_captura": {
+  "rmse_cadera_Nm_kg": 0.8381889083757829,
+  "rmse_rodilla_Nm_kg": 0.6145272817088459,
+  "rmse_tobillo_Nm_kg": 0.3508649136824566,
+  "rmse_lumbar_Nm_kg": 1.0529389754740546,
+  "rmse_hombro_Nm_kg": 0.4291367740338548,
+  "rmse_codo_Nm_kg": 0.38128675154355013,
+  "rmse_momentos_Nm_kg": 0.5961467217628064,
+  "rmse_reaccion_vertical_pctBW": 43.501968927188976,
+  "rmse_potencia_W_kg": 0.4529118687602615,
+  "ms_por_fotograma": 11.098527305850515
+ },
+ "B_tcn": {
+  "rmse_cadera_Nm_kg": 0.06786970152014811,
+  "rmse_rodilla_Nm_kg": 0.0665222798500239,
+  "rmse_tobillo_Nm_kg": 0.04480309298788598,
+  "rmse_lumbar_Nm_kg": 0.07883393242199994,
+  "rmse_hombro_Nm_kg": 0.05276798836341152,
+  "rmse_codo_Nm_kg": 0.05440633459116568,
+  "rmse_momentos_Nm_kg": 0.055284148990815886,
+  "rmse_reaccion_vertical_pctBW": 3.761100508418019,
+  "rmse_potencia_W_kg": 0.06451690104675879,
+  "ms_por_fotograma": 0.03568975954221169
+ },
+ "C_hibrido": {
+  "rmse_cadera_Nm_kg": 0.2985250302562981,
+  "rmse_rodilla_Nm_kg": 0.24644014479703233,
+  "rmse_tobillo_Nm_kg": 0.1905740300525508,
+  "rmse_lumbar_Nm_kg": 0.2991412157307067,
+  "rmse_hombro_Nm_kg": 0.10751519663265376,
+  "rmse_codo_Nm_kg": 0.08913956399887568,
+  "rmse_momentos_Nm_kg": 0.19529003873235964,
+  "rmse_reaccion_vertical_pctBW": 16.845265776487736,
+  "rmse_potencia_W_kg": 0.16777260488093357,
+  "ms_por_fotograma": 0.2413850106947034
+ },
+ "A_fisica_limpia": {
+  "rmse_cadera_Nm_kg": 0.002293667172286146,
+  "rmse_rodilla_Nm_kg": 0.0018917228840203944,
+  "rmse_tobillo_Nm_kg": 0.0011017506096234456,
+  "rmse_lumbar_Nm_kg": 0.0027537990583917453,
+  "rmse_hombro_Nm_kg": 0.001296990111609783,
+  "rmse_codo_Nm_kg": 0.0007391622878783803,
+  "rmse_momentos_Nm_kg": 0.0016854483435188685,
+  "rmse_reaccion_vertical_pctBW": 0.13371594881495133,
+  "rmse_potencia_W_kg": 0.0016485241710253902
+ },
+ "B_tcn_vivo": {
+  "rmse_cadera_Nm_kg": 0.08027911221647355,
+  "rmse_rodilla_Nm_kg": 0.07601728646770622,
+  "rmse_tobillo_Nm_kg": 0.05672115817562388,
+  "rmse_lumbar_Nm_kg": 0.10465147906068002,
+  "rmse_hombro_Nm_kg": 0.05594513468756516,
+  "rmse_codo_Nm_kg": 0.06166618068429682,
+  "rmse_momentos_Nm_kg": 0.06310551478423727,
+  "rmse_reaccion_vertical_pctBW": 4.372580320159303,
+  "rmse_potencia_W_kg": 0.07851536183583739,
+  "ms_por_fotograma": 0.01823222275148877
+ },
+ "parametros": {
+  "B_tcn": 303796,
+  "C_hibrido": 312041,
+  "B_tcn_vivo": 303796
+ }
+}

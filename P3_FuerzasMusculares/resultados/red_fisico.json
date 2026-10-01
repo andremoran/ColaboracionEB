@@ -1,0 +1,12 @@
+{
+ "modo": "fisico",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 4.749545574188232,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.498991012573242,
+ "activacion_mae_vs_SO": 0.04369640350341797,
+ "fuerza_corr_vs_SO": 0.8265987784713524,
+ "esfuerzo_red": 2.2464685440063477,
+ "esfuerzo_SO": 1.4367201328277588,
+ "ms_por_fotograma_red": 0.5034565925598145,
+ "fotogramas_prueba": 33669
+}

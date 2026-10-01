@@ -1,0 +1,65 @@
+paso 1000 pérdida 0.0006 32s
+paso 2000 pérdida 0.0004 63s
+paso 3000 pérdida 0.0003 97s
+paso 4000 pérdida 0.0002 133s
+paso 5000 pérdida 0.0002 171s
+paso 6000 pérdida 0.0002 216s
+paso 7000 pérdida 0.0002 258s
+paso 8000 pérdida 0.0002 301s
+{
+ "modo": "supervisado",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 5.097599029541016,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.455901145935059,
+ "activacion_mae_vs_SO": 0.00544043118134141,
+ "fuerza_corr_vs_SO": 0.9949005889668823,
+ "esfuerzo_red": 1.4705325365066528,
+ "esfuerzo_SO": 1.50033438205719,
+ "ms_por_fotograma_red": 4.7179341316223145,
+ "fotogramas_prueba": 33739
+}
+paso 1000 pérdida 2.3087 41s
+paso 2000 pérdida 1.6156 81s
+paso 3000 pérdida 0.8334 137s
+paso 4000 pérdida 0.7540 172s
+paso 5000 pérdida 1.1396 209s
+paso 6000 pérdida 1.6987 241s
+paso 7000 pérdida 3.1157 285s
+paso 8000 pérdida 2.3111 331s
+{
+ "modo": "fisico",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 4.771975040435791,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.455901145935059,
+ "activacion_mae_vs_SO": 0.045462191104888916,
+ "fuerza_corr_vs_SO": 0.8107891947779888,
+ "esfuerzo_red": 2.3159899711608887,
+ "esfuerzo_SO": 1.50033438205719,
+ "ms_por_fotograma_red": 1.5079259872436523,
+ "fotogramas_prueba": 33739
+}
+serie 1286 (peso_muerto): MAE activación so 0.0032, emg_ingenua 0.0124, emg_genetica 0.0033, emg_verdadera 0.0019  (35s)
+serie 3036 (peso_muerto): MAE activación so 0.0005, emg_ingenua 0.0143, emg_genetica 0.0005, emg_verdadera 0.0003  (94s)
+serie 2444 (peso_muerto): MAE activación so 0.0015, emg_ingenua 0.0095, emg_genetica 0.0013, emg_verdadera 0.0009  (184s)
+serie 1473 (sentadilla): MAE activación so 0.0043, emg_ingenua 0.0186, emg_genetica 0.0042, emg_verdadera 0.0039  (220s)
+serie 192 (sentadilla): MAE activación so 0.0063, emg_ingenua 0.0106, emg_genetica 0.0063, emg_verdadera 0.0062  (357s)
+serie 4053 (zancada): MAE activación so 0.0042, emg_ingenua 0.0116, emg_genetica 0.0046, emg_verdadera 0.0022  (411s)
+{
+ "mae_activacion": {
+  "so": 0.0033328233553478123,
+  "emg_ingenua": 0.012840118757623878,
+  "emg_genetica": 0.003365595981104839,
+  "emg_verdadera": 0.0025502423102583393
+ },
+ "mae_activacion_no_medidos": {
+  "so": 0.0026628664402879774,
+  "emg_ingenua": 0.010190430128522094,
+  "emg_genetica": 0.0026795446940095953,
+  "emg_verdadera": 0.0023942526040816683
+ }
+}
+paso 250 pérdida 0.2580 462s
+paso 500 pérdida 0.2741 802s
+paso 750 pérdida 0.3069 1150s
+paso 1000 pérdida 0.1890 1477s
+paso 1250 pérdida 0.1803 1935s

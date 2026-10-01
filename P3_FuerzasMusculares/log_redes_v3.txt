@@ -1,0 +1,36 @@
+paso 1000 pérdida 0.0005 10s
+paso 2000 pérdida 0.0002 21s
+paso 3000 pérdida 0.0002 31s
+paso 4000 pérdida 0.0001 41s
+paso 5000 pérdida 0.0002 50s
+paso 6000 pérdida 0.0002 60s
+{
+ "modo": "supervisado",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 5.102602481842041,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.498991012573242,
+ "activacion_mae_vs_SO": 0.004897241946309805,
+ "fuerza_corr_vs_SO": 0.9935454360136039,
+ "esfuerzo_red": 1.410997986793518,
+ "esfuerzo_SO": 1.4367201328277588,
+ "ms_por_fotograma_red": 0.8260130882263184,
+ "fotogramas_prueba": 33669
+}
+paso 1000 pérdida 1.8643 14s
+paso 2000 pérdida 1.6681 27s
+paso 3000 pérdida 1.9112 41s
+paso 4000 pérdida 0.7308 56s
+paso 5000 pérdida 2.3568 71s
+paso 6000 pérdida 0.8444 86s
+{
+ "modo": "fisico",
+ "parametros": 165200,
+ "residuo_momento_rmse_Nm_red": 4.749545574188232,
+ "residuo_momento_rmse_Nm_optim_estatica": 4.498991012573242,
+ "activacion_mae_vs_SO": 0.04369640350341797,
+ "fuerza_corr_vs_SO": 0.8265987784713524,
+ "esfuerzo_red": 2.2464685440063477,
+ "esfuerzo_SO": 1.4367201328277588,
+ "ms_por_fotograma_red": 0.5034565925598145,
+ "fotogramas_prueba": 33669
+}

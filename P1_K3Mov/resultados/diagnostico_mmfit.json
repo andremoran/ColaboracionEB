@@ -1,0 +1,286 @@
+{
+ "sentadilla": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 34.3,
+   "kneeR_flex": 28.3,
+   "trunk_flex": 26.4
+  },
+  "sintetico": {
+   "hipR_flex": 30.7,
+   "kneeR_flex": 48.7,
+   "trunk_flex": 11.1
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ],
+  "correlacion_der_izq": {
+   "real": 1.0,
+   "sintetico": 0.86
+  }
+ },
+ "flexion_brazos": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 14.4,
+   "kneeR_flex": 25.4,
+   "trunk_flex": -81.5
+  },
+  "sintetico": {
+   "hipR_flex": 0.9,
+   "kneeR_flex": 27.7,
+   "trunk_flex": 83.8
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ]
+ },
+ "press_hombro": {
+  "series": 21,
+  "real": {
+   "hipR_flex": 69.4,
+   "kneeR_flex": 74.1,
+   "trunk_flex": 8.1
+  },
+  "sintetico": {
+   "hipR_flex": -0.6,
+   "kneeR_flex": 21.0,
+   "trunk_flex": -0.6
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ],
+  "correlacion_der_izq": {
+   "real": 0.99,
+   "sintetico": 0.37
+  }
+ },
+ "zancada": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 17.8,
+   "kneeR_flex": 25.6,
+   "trunk_flex": 16.3
+  },
+  "sintetico": {
+   "hipR_flex": 6.5,
+   "kneeR_flex": 42.8,
+   "trunk_flex": 1.6
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "hipL_rot",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ],
+  "cambia_de_pierna_pct": 61.6
+ },
+ "remo": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 58.1,
+   "kneeR_flex": 21.1,
+   "trunk_flex": 53.7
+  },
+  "sintetico": {
+   "hipR_flex": 52.4,
+   "kneeR_flex": 32.3,
+   "trunk_flex": 42.8
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "hipR_rot",
+   "hipL_rot",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ],
+  "correlacion_der_izq": {
+   "real": 0.97,
+   "sintetico": 0.48
+  }
+ },
+ "abdominal": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 66.3,
+   "kneeR_flex": 98.9,
+   "trunk_flex": -63.4
+  },
+  "sintetico": {
+   "hipR_flex": 77.9,
+   "kneeR_flex": 93.9,
+   "trunk_flex": -49.7
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ]
+ },
+ "extension_triceps": {
+  "series": 24,
+  "real": {
+   "hipR_flex": 66.7,
+   "kneeR_flex": 72.3,
+   "trunk_flex": 2.2
+  },
+  "sintetico": {
+   "hipR_flex": -1.2,
+   "kneeR_flex": 20.1,
+   "trunk_flex": -0.4
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ]
+ },
+ "curl_biceps": {
+  "series": 22,
+  "real": {
+   "hipR_flex": 6.3,
+   "kneeR_flex": 10.4,
+   "trunk_flex": 18.7
+  },
+  "sintetico": {
+   "hipR_flex": -0.9,
+   "kneeR_flex": 20.1,
+   "trunk_flex": 1.0
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "hipR_rot",
+   "hipL_rot",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ],
+  "correlacion_der_izq": {
+   "real": -0.3,
+   "sintetico": 0.81
+  }
+ },
+ "elevacion_lateral": {
+  "series": 21,
+  "real": {
+   "hipR_flex": 89.3,
+   "kneeR_flex": 77.3,
+   "trunk_flex": 28.5
+  },
+  "sintetico": {
+   "hipR_flex": -0.9,
+   "kneeR_flex": 19.2,
+   "trunk_flex": -0.2
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ]
+ },
+ "saltos_tijera": {
+  "series": 21,
+  "real": {
+   "hipR_flex": -0.1,
+   "kneeR_flex": 11.3,
+   "trunk_flex": 12.7
+  },
+  "sintetico": {
+   "hipR_flex": -0.6,
+   "kneeR_flex": 18.4,
+   "trunk_flex": 0.8
+  },
+  "angulos_ausentes": [
+   "elbowR_pronSup",
+   "elbowL_pronSup",
+   "wristR_flex",
+   "wristL_flex",
+   "wristR_dev",
+   "wristL_dev",
+   "hipR_rot",
+   "hipL_rot",
+   "ankleR_flex",
+   "ankleL_flex",
+   "neck_flex",
+   "neck_rot",
+   "neck_incl"
+  ]
+ }
+}

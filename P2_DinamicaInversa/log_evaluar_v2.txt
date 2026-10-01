@@ -1,0 +1,3 @@
+0 fondos {'A_fisica_captura': 0.404, 'B_tcn': 0.045, 'C_hibrido': 0.105, 'A_fisica_limpia': 0.002, 'B_tcn_vivo': 0.055}
+10 curl_biceps {'A_fisica_captura': 0.945, 'B_tcn': 0.071, 'C_hibrido': 0.258, 'A_fisica_limpia': 0.002, 'B_tcn_vivo': 0.093}
+20 extension_triceps {'A_fisica_captura': 1.059, 'B_tcn': 0.073, 'C_hibrido': 0.225, 'A_fisica_limpia': 0.001, 'B_tcn_vivo': 0.125}
